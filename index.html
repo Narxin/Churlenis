@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Мета теги -->
+     <link rel="stylesheet" href="style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <title>Миколоюс Константинас Чурлёнис</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container header__container">
+                <a href="#" class="header__top__logo logo">logo</a>
+                <div class="burger-menu">
+                    <span></span>
+                </div>
+                <nav class="header__top__nav">
+                    <ul class="top__list">
+                        <li class="top__li"><a href="#"></a>О нас</li>
+                        <li class="top__li"><a href="#"></a>Личность</li>
+                        <li class="top__li"><a href="#"></a>Галерея</li>
+                        <li class="top__li"><a href="#"></a>Упоминания</li>
+                    </ul>
+                </nav>
+                <!-- <button class="header__top__btn btn">Log In</button> -->
+            </div>
+        </div>
+
+        <div class="header__bottom">
+            <div class="container header__container header__container--bottom">
+                <nav class="bottom__nav">
+                    <ul class="bottom_list">
+                        <li class="header__bottom__li"><a href="#">Реализм</a></li>
+                        <li class="header__bottom__li"><a href="#">Импрессионизм</a></li>
+                        <li class="header__bottom__li"><a href="#">Постимпессионизм</a></li>
+                        <li class="header__bottom__li"><a href="#">Авангард</a></li>
+                        <li class="header__bottom__li"><a href="#">Футуризм</a></li>
+                    </ul>
+                </nav>
+                <div class="header__bottom__search">
+                    <button class="header__bottom__btn btn">Search</button>
+                    <input type="text" class="header__bottom__input" placeholder="Search on the site">
+                </div>
+            </div>
+        </div>   
+    </header>
+    <!--                         -->
+ 
+    <main>
+        <section class="hero">
+                <!-- <div class="courusel">
+                    <div class="courusel__item">
+                        <img src="img/hero__img1.jpg" alt="">
+                    </div>
+                    <div class="courusel__item">
+                        <img src="img/hero__img2.png" alt="">
+                    </div>
+                    <div class="courusel__item">
+                        <img src="img/hero__img3.png" alt="">
+                    </div>
+                 </div> -->
+            <div class="container hero__container">
+                <!-- Фоновый слайдер -->
+                 <div class="hero_content">
+                    <h1 class="hero__title">Микалоюс Константинас Чюрлёнис</h1>
+                    <p class="hero_descr">Великий литовский композитор и художник. Родоначальник профессиональной литовской музыки, далеко раздвинувший своим творчеством границы национальной и мировой культуры</p>
+                    <a href="#" class="hero__link">Подписаться на рассылку</a>
+                 </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container info__container">
+                <h2 class="subtitle subtitle--black">О Чюрлёнисе</h2>
+                <p class="info__p">
+                    Родился 10 сентября 1875 года в деревне в семье органиста. Получил первое музыкальное образование у отца и в 1889 году был принят в музыкальную школу. Благодаря поддержке князя получил стипендию и поступил в Варшавский музыкальный институт (1894–1899). После смерти князя, оставшись без стипендии, уехал в Лейпцигскую консерваторию.<br>
+                    Чюрлёнис изучал психологию, геологию, философию, астрологию, математику и другие науки. Написал множество фортепианных произведений, симфонических поэм, таких как «В лесу» (1901) и «Море» (1907), а также хоровые произведения. В 1902 году начал серьезно заниматься живописью. Его живопись отличалась оригинальностью и космической тематикой, он создал известные циклы картин «Сотворение мира», «Зодиак», «Зима», «Весна», «Соната» и др.<br>
+                    После переезда в Санкт-Петербург в 1907 году, он стал участвовать в выставках и сблизился с кругом художников объединения «Мир искусства». Жил и работал в Вильне, где активно участвовал в литовском национальном движении, руководил хорами. В 1911 году был помещен в психиатрическую клинику, где у него ухудшилось состояние. Умер 10 апреля 1911 года в клинике под Варшавой от воспаления легких, полученного после неудачной попытки побега.<br>
+                    Похоронен в Вильнюсе на кладбище Росса (Расу).
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container container__gallery">
+                <div class="gallery__left">
+                    <div class="gallery__wraper">
+                        <h2 class="subtitle subtitle--gallery">Галерея</h2>
+
+                        <div class="gallery__filter filter">
+                            <label class="filter__label" for="filter">Фильтр:</label>
+                            <select id="filter">
+                                <option class="filter__el" value="painting">Живопись</option>
+                                <option class="filter__el" value="music">Музыка</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="gallery__descr">Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний <a class="gallery__login" href="#">авторизуйтесь</a>, либо воспользуйтесь лицензией. </p>
+                </div>
+
+                <div class="gallery__right">
+                    <div class="controls">
+                        <button class="btn arrow arrow--prev">
+                            <img src="img/arrow_prev.svg" alt="arrow prev">
+                        </button>
+                        <span class="gallery_pag">1/2</span>
+                        <button class="btn arrow arrow--next">
+                            <img src="img/arrow_next.svg" alt="arrow next">
+                        </button>
+                    </div>
+                    <ul class="gallery__list">
+                        <li>
+                            <img class="gallery__picture gp1" src="img/Create_world_10.jpg" alt="Сотворение мира IX">
+                            <p class="gallery__picture__descr">Сотворение мира IX</p>
+                        </li>
+                        <li>
+                            <img class="gallery__picture gp2" src="img/Goat.jpg" alt="Козёл">
+                            <p class="gallery__picture__descr">Козёл</p>
+                        </li>
+                        <li>
+                            <img class="gallery__picture gp3" src="img/Sacrifise.jpg" alt="Жертва">
+                            <p class="gallery__picture__descr">Жертва</p>
+                        </li>
+                        <li>
+                            <img class="gallery__picture gp4" src="img/Rex.jpg" alt="Рекс">
+                            <p class="gallery__picture__descr">Рекс</p>
+                        </li>
+                        <li>
+                            <img class="gallery__picture gp5" src="img/Funeral_symphony_5.jpg" alt="Похоронная симфония (V)">
+                            <p class="gallery__picture__descr">Похоронная симфония (V)</p>
+                        </li>
+                        <li>
+                            <img class="gallery__picture gp6" src="img/The_tail_of_king.jpg" alt="Сказка королей">
+                            <p class="gallery__picture__descr">Сказка королей</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="events">
+            <div class="container container__events">
+                <div class="events__title"><h2>События</h2></div>
+                <ul class="events__cards">
+                    <li class="events__cards__li">
+                        <div class="events__cards__img">
+                            <img class="event__card" src="img/event_1.jpg" alt="">
+                        </div>
+                        <h3 class="events__cards__h3">Книжная гравюра в живом восприятии</h3>
+                        <p class="events__cards__p">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                        <div class="events__cards__more">
+                            <a href="#" class="events__cards__a">Подробнее</a>
+                        </div>
+                    </li>
+                    <li class="events__cards__li">
+                        <div class="events__cards__img">
+                            <img class="event__card" src="img/event_2.jpg" alt="">
+                        </div>
+                        <h3 class="events__cards__h3">"Открытая дискуссия". Дмитрий Петров и Сергей Ильин</h3>
+                        <p class="events__cards__p">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта.</p>
+                        <div class="events__cards__more">
+                            <a href="#" class="events__cards__a">Подробнее</a>
+                        </div>
+                    </li>
+                    <li class="events__cards__li">
+                        <div class="events__cards__img">
+                            <img class="event__card" src="img/event3.jpg" alt="">
+                        </div>
+                        <h3 class="events__cards__h3">Выставка "Формация 2020"</h3>
+                        <p class="events__cards__p">Идейные соображения высшего порядка, а также современная методология разработки играет важную роль в формировании глубокомысленных рассуждений.</p>
+                        <div class="events__cards__more">
+                            <a href="#" class="events__cards__a">Подробнее</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="events__btn__rasp">
+                    <button class="events__btn btn">Все события</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="mentions">
+            <div class="container container__mentions">
+                <div class="mentions__right">
+                    <div class="mentions__wrapper">
+                        <h2 class="subtitle subtitle--white">Упоминания</h2>
+                    </div>
+                    <div class="mentions__filter">
+                        <div class="mentions__filter__p">
+                            <span>от</span> <input class="mention__filter_both mentions__filter__min" type="number">
+                            до <input class="mention__filter_both mentions__filter__max" type="number">
+                            руб.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mentions__left">
+                    <div class="controls">
+                        <button class="btn arrow arrow--prev">
+                            <img src="img/arrow_prev.svg" alt="arrow prev">
+                        </button>
+                        <span class="gallery_pag">1/3</span>
+                        <button class="btn arrow arrow--next">
+                            <img src="img/arrow_next.svg" alt="arrow next">
+                        </button>
+                    </div>
+                    <ul class="mention__books">
+                        <li>
+                            <div class="mention__books__cont">
+                                <img class="mention__book" src="img/book1.jpg" alt="Ю. Шенявский, В. Желтов">
+                                <p class="mention__books__name">
+                                    Юрий Шенявский<br>
+                                Владимир Желтов</p>
+                                <button class="btn mention__btn">Заказать</button>
+                            </div>
+                            <p class="price">620руб</p>
+                        </li>
+                        <li>
+                            <div class="mention__books__cont">
+                                <img class="mention__book" src="img/book2.jpg" alt="Д. Северюхин">
+                                <p class="mention__books__name">
+                                    Дмитрий<br>
+                                Северюхин</p>
+                                <button class="btn mention__btn">Заказать</button>
+                            </div>
+                            <p class="price">2450руб</p>
+                        </li>
+                        <li>
+                            <div class="mention__books__cont">
+                                <img class="mention__book" src="img/book3.jpg" alt="Ю. Гаудримас, А. Савицкас">
+                                <p class="mention__books__name">
+                                    Ю.Гаудримас<br>
+                                А.Савицкас</p>
+                                <button class="btn mention__btn">Заказать</button>
+                            </div>
+                            <p class="price">2200руб</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--                            -->
+        <footer class="footer">
+            <div class="container container__footer">
+                <a href="#" class="footer__logo logo">logo</a>
+<!-- вместо див, список -->
+                <ul class="footer__soc_media">
+                    <li>
+                        <a href="#">
+                            <img class="soc_media" src="img/Vk.svg" alt="Вконтакте">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="soc_media" src="img/inst.svg" alt="Инстаграмм">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="soc_media" src="img/fb.svg" alt="Фейсбук">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
